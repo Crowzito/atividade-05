@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { Button, Card, Col, Row } from "react-bootstrap";
-import apiFilmes from "./apis/apiFilmes";
-import Pagina from "./components/Pagina";
+import apiFilmes from "../apis/apiFilmes";
+import Pagina from "../components/Pagina";
 
 export default function page() {
     // uso de estado na tela, apenas quando alcançar
